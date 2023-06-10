@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.SystemPageController">
+   <children>
+      <Label layoutX="47.0" layoutY="41.0" prefHeight="44.0" prefWidth="301.0" text="Currency Conversion System" textFill="#120d5e">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutBtn" layoutX="658.0" layoutY="46.0" mnemonicParsing="false" onAction="#logoutFromSystem" prefHeight="34.0" prefWidth="107.0" style="-fx-background-color: #e4bb19;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="converBtn" layoutX="343.0" layoutY="345.0" mnemonicParsing="false" onAction="#convertCurrency" prefHeight="44.0" prefWidth="117.0" style="-fx-background-color: #120d5e;" text="Convert" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nisTF" alignment="CENTER" layoutX="446.0" layoutY="235.0" prefHeight="44.0" prefWidth="194.0" style="-fx-alignment: center;" />
+      <TextField fx:id="usdTF" alignment="CENTER" layoutX="161.0" layoutY="235.0" prefHeight="44.0" prefWidth="194.0" style="-fx-alignment: center;" />
+      <Label layoutX="216.0" layoutY="190.0" prefHeight="34.0" prefWidth="84.0" style="-fx-alignment: center;" text="USD" textFill="#120d5e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="190.0" prefHeight="34.0" prefWidth="84.0" style="-fx-alignment: center;" text="NIS" textFill="#120d5e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="240.0" prefHeight="34.0" prefWidth="84.0" style="-fx-alignment: center;" text="TO" textFill="#120d5e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
